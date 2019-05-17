@@ -1,0 +1,2 @@
+# Econotech
+Um web site que consiste em cadastrar fornecedores e com isso cadastrar os seus produtos. E as empresas que precisa dos produtos poderam ver os melhores valores e com isso decidir em qual fornecedor comprar. fazendo com que seja criado uma concorrencia . Usamos no desenvolvimento do web site a linguagem PHP e Js como back-end. O banco de dados: MySql. Linguagens de marcação: Html, Css. Fremework:Bootstrap versão 3.0.
