@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+
+body {
+		color: white;
+		background: #e2e2e2;
+		font-family: 'Roboto', sans-serif;
+		margin: 30px;
+	}
+
+header nav ul li a:hover {
+    color:#6E6E6E;
+
+}
+
+header nav  {
+    background: #8A0808;
+    border-bottom: #f73838 solid 2px;
+}
+
+
+header nav ul {
+
+    padding: 0;
+    width: 35%;
+    margin: auto;
+    
+}
+
+header nav ul li {
+
+    display: inline-block;
+    padding: 5%;
+  
+
+}
+
+nav ul li a {
+    color: #D8D8D8;
+    text-decoration:none;
+    font-size: 1.3em;
+
+}
+
+
+section {
+
+    float:left;
+    width: 50%;
+    height: 350px;
+    margin: 3%;
+    padding: 2%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 25%;
+
+}
+    
+section h2 {
+
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(3, 3,3, .5);
+    transition: .5s;
+    
+}
+
+section p {
+    
+    position: absolute;
+    bottom: -130px;
+    left:0;
+    background-color: rgba(3, 3,3, .5);
+    transition: .5s;
+    padding-top: 15px;
+
+}
+
+section:hover h2 {
+
+    bottom: 74%;
+    transition: .5s;
+}
+
+section:hover p {
+
+    bottom: 134px;
+    transition: .5s;
+
+}
+
+
+
+
+
+.produto1{
+
+    background: url('imagens/algodao.jpg') no-repeat;
+    background-size: 120%;
+	
+	
+}
+
+
+.produto2{
+
+    background: url('imagens/pecas.jpg') no-repeat;
+    background-size: 170%;
+
+	
+	
+}
+
+
+
+.produto3{
+
+    background: url('imagens/linhas.jpg') no-repeat;
+    background-size: 100%;
+	
+}
+
+
+
+.produto4{
+
+    background: url('imagens/pecas2.jpg') no-repeat;
+    background-size: 140%;
+	
+	
+}
+
+.criadora {
+    color: #333;
+    text-align: center;
+	margin-bottom:100%;
+}
+
+
+.rodape {
+   position:absolute;
+   bottom:-1115px;
+   width:94%;
+   height:30px;   /* Mesma Altura do Rodapé */
+   background:#8A0808;
+  
+}
+
+
+

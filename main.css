@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+
+body {
+		color: #4e4e4e;
+		background: #e2e2e2;
+		font-family: 'Roboto', sans-serif;
+		margin: 30px;
+	}
+
+header nav ul li a:hover {
+    color:#6E6E6E;
+	text-align: center;
+
+}
+
+header nav  {
+    background: #8A0808;
+    border-bottom: #f73838 solid 2px;
+}
+
+
+header nav ul {
+
+   
+    padding: 0;
+    width: 35%;
+    margin: auto;
+    
+}
+
+header nav ul li {
+
+    display: inline-block;
+    padding: 5%;
+  
+
+}
+
+nav ul li a {
+    color: #D8D8D8;
+    text-decoration:none;
+    font-size: 1.3em;
+
+}
+
+section {
+
+    float:left;
+    width: 80%;
+    height: 580px;
+    margin: 3%;
+    padding: 2%;
+    margin-left: 120px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+
+}
+    
+section h2 {
+
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(3, 3,3, .5);
+    transition: .5s;
+    
+}
+
+section p {
+    
+    position: absolute;
+    bottom: -140px;
+    left:0;
+    background-color: rgba(3, 3,3, .5);
+    transition: .5s;
+    padding-top: 15px;
+
+}
+
+
+
+
+.westworld {
+
+ 
+ 
+}
+
+
+
+
+
+
+
